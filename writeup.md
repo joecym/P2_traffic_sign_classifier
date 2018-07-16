@@ -98,7 +98,7 @@ My final model consisted of the following layers. It's very similar to the LeNET
 
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
-
+ 
 To train the model, I used a learning rate of 0.002, 5 epochs, and a batch size of 128.
 
 #### 4. I changed the depths of the layers and experimented with pre-processing of the images to achieve a validation accuracy of at least 0.93. 
@@ -112,7 +112,7 @@ My final model results were
 * test set accuracy of 93.7%
 
 
-I believed a well known architecture like LeNet would successfully solve this problem. However, I was not able to achieve the same level of accuracy as the simpler LeNet solution. I had problems with overfitting, as my accuracy would decline rapidly after a certain number of epochs. 
+I believed a well known architecture like LeNet would successfully solve this problem. However, I was not able to achieve the same level  of accuracy as the simpler LeNet solution. I had problems with overfitting, as my accuracy would decline rapidly after a certain number of epochs. 
 
 ### Test a Model on New Images
 
@@ -134,7 +134,7 @@ Here are the results of the prediction:
 | Roundabout		| Right of Way      							|
 
 
-The model was able to correctly guess 3 of the 5 traffic signs, which gives an accuracy of 60%. This is less than the training set but I think it may be due to the poor quality of the images after I had resized it to fit the 32x32 shape.
+The model was able to correctly guess 3 of the 5 traffic signs, which gives an accuracy of 60%. This is less than the test set but I think it may be due to the poor quality of the images after I had resized it to fit the 32x32 shape, which affected my last two images the most.
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
