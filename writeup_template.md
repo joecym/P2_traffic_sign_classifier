@@ -43,7 +43,7 @@ Number of classes = 42
 
  I used this script to load an image, and later made a loop to find an image of a particular type. This was helpful in ensuring that I correctly labeled the web images that I used in the last section. 
  
- ````python
+ ``` python
  
  index = random.randint(0, len(X_train))
 
@@ -67,7 +67,7 @@ while (count < 1000):
         break
     count = count + 1
 
- ````
+ ```
 
 ### Design and Test a Model Architecture
 
@@ -110,7 +110,7 @@ My final model results were:
 * test set accuracy of ?
 
 
-I believed a well known architecture was chosen like LeNet would successfully solve this problem. However, I was not able to achieve the same level of accuracy as the simpler LeNet solution. I had problems with overfitting, as my accuracy would decline rapidly after a certain number of epochs. 
+I believed a well known architecture like LeNet would successfully solve this problem. However, I was not able to achieve the same level of accuracy as the simpler LeNet solution. I had problems with overfitting, as my accuracy would decline rapidly after a certain number of epochs. 
 
 ### Test a Model on New Images
 
