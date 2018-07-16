@@ -67,7 +67,7 @@ while (count < 1000):
         break
     count = count + 1
 
- ````python
+ ````
 
 ### Design and Test a Model Architecture
 
