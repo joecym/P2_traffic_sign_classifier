@@ -125,8 +125,7 @@ I chose five images on the web and you can see them printed in my notebook. The 
 
 Here are the results of the prediction:
 
-| Image			        |     Prediction	        					| 
-
+| Image			        |     Prediction	       					| 
 |:---------------------:|:---------------------------------------------:| 
 | 50 km/h      		| 50 km/h   									| 
 | Bumpy Road     			| Bumpy Road 										|
@@ -143,7 +142,7 @@ The code for making predictions on my final model is located in the 15th cell of
 
 For the first image, the model is almost certain that the 50 km/hr sign is a 50 km/hr sign. The top five soft max probabilities were
 
-| Probability         	|     Prediction	        					| 
+| Probability         	|     Prediction	  		| 
 |:---------------------:|:---------------------------------------------:| 
 | .99         			| 50 km/hr 									| 
 |  3.76e-4    				|30 km/hr										|
@@ -165,8 +164,7 @@ For the third image, the model is mostly certain that the No Entry image is a No
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| .999         			| No Entry   									| 
-|  1.8e-4    				|Turn Left Ahead										|
+| .999         			| No Entry   									| |  1.8e-4    				|Turn Left Ahead										|
 | 2.63e-9					| Ahead Only											|
 | 4.5e-10	      			| Go Straight or Left			 				|
 | 7.08e-11			    | Priority Road      							|
